@@ -20,7 +20,9 @@ Install Browsers: powershell bin/Debug/net10.0/playwright.ps1 install (use this 
 
 run xunit test: dotnet test
 
+install reqnroll: add reqnroll extension
 
+Add .gitignore file: dotnet new gitignore
 
 
 
