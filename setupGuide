@@ -24,6 +24,12 @@ install reqnroll: add reqnroll extension
 
 Add .gitignore file: dotnet new gitignore
 
+Install reqnroll related packages:
+    ->  dotnet add package Reqnroll
+    ->  dotnet add package Reqnroll.xUnit
+    ->  dotnet add package Microsoft.Playwright
+    ->  dotnet add package Microsoft.Playwright.Xunit
+
 
 
 

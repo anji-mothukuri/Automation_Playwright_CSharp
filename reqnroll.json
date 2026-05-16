@@ -1,0 +1,13 @@
+{
+  "$schema": "https://reqnroll.net",
+  "language": {
+    "feature": "en"
+  },
+  "runtime": {
+    "missingOrPendingStepsOutcome": "Pending"
+  },
+  "generator": {
+    "allowDebugGeneratedFiles": false,
+    "outputPath": null
+  }
+}
