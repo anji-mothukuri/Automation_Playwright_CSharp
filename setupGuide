@@ -1,0 +1,29 @@
+install c# dev kit: from extensions tab
+
+Install dotnet10 : https://dotnet.microsoft.com/en-us/download/dotnet/10.0
+Check version: dotnet --version
+
+install xunit.v3: dotnet new install xunit.v3.templates
+check version: 
+
+create xunit.v3 playwright project: dotnet new xunit -n MyPlaywrightTests
+navigate to unit test project: cd MyPlaywrightTests
+
+playwright core package: dotnet add package Microsoft.Playwright
+
+playwright xunit integration:  dotnet add package Microsoft.Playwright.Xunit
+
+Build Project: dotnet build
+
+Install Browsers: pwsh bin/Debug/net10.0/playwright.ps1 install
+Install Browsers: powershell bin/Debug/net10.0/playwright.ps1 install (use this if pwsh not found)
+
+run xunit test: dotnet test
+
+
+
+
+
+
+
+
